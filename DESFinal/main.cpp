@@ -1,3 +1,12 @@
+/**
+ * @mainpage Encryption algorithm DES
+ *
+ *
+ * @version
+ * 20/11/2015
+ */
+
+
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
