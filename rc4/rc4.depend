@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1446477724 source:c:\instal\codeblocks\share\codeblocks\programy\rc4\main.cpp
-	<iostream>
-	<string.h>
-	<stdio.h>
-
