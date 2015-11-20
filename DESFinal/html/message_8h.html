@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>My Project: message.h File Reference</title>
+<title>DES: message.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">My Project
+   <div id="projectname">DES
    </div>
   </td>
  </tr>
@@ -85,7 +85,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">message.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+</div>
 <p><a href="message_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -94,38 +95,31 @@ Functions</h2></td></tr>
 <tr class="separator:a8fe80dace52ada712840d6d088593c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a241cc020182de2ae427350a2c6d27a68"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="message_8h.html#a241cc020182de2ae427350a2c6d27a68">padding</a> (int numbersInMessage)</td></tr>
 <tr class="separator:a241cc020182de2ae427350a2c6d27a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a009ebb23c3e0e0534e538db074960720"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="message_8h.html#a009ebb23c3e0e0534e538db074960720">getMessage</a> (int message[], int numbersInMessage)</td></tr>
-<tr class="separator:a009ebb23c3e0e0534e538db074960720"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5d18397c7ae403a9182ddca9d40ebd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="message_8h.html#aa5d18397c7ae403a9182ddca9d40ebd9">messageExpand</a> (int message[], int numbersInMessage)</td></tr>
-<tr class="separator:aa5d18397c7ae403a9182ddca9d40ebd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09952714f5ba8b1344d2b164447ddd60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="message_8h.html#a09952714f5ba8b1344d2b164447ddd60">getMessage</a> (std::vector&lt; unsigned char &gt; &amp;message)</td></tr>
+<tr class="separator:a09952714f5ba8b1344d2b164447ddd60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7578bee08f243ac9a45e208f12f89fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="message_8h.html#af7578bee08f243ac9a45e208f12f89fa">messageExpand</a> (std::vector&lt; unsigned char &gt; &amp;message)</td></tr>
+<tr class="separator:af7578bee08f243ac9a45e208f12f89fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a310a38226dc017dcc4b332467b6f1b6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="message_8h.html#a310a38226dc017dcc4b332467b6f1b6e">messageToBinary</a> (bool binaryMessage[], std::vector&lt; unsigned char &gt; &amp;message)</td></tr>
+<tr class="memdesc:a310a38226dc017dcc4b332467b6f1b6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts the message in form of unsigned chars into binary message  <a href="#a310a38226dc017dcc4b332467b6f1b6e">More...</a><br /></td></tr>
+<tr class="separator:a310a38226dc017dcc4b332467b6f1b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>functions used to get and prepare the message </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a009ebb23c3e0e0534e538db074960720"></a>
+<a class="anchor" id="a09952714f5ba8b1344d2b164447ddd60"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void getMessage </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>message</em>[], </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">std::vector&lt; unsigned char &gt; &amp;&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>numbersInMessage</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>get the message from the user, character after character &lt;int&gt; </p><dl class="params"><dt>Parameters</dt><dd>
+<p>get the message from the user, character after character &lt;unsigned char&gt;=""&gt; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">message</td><td>an array to store the message </td></tr>
     <tr><td class="paramname">numbersInMessage</td><td>the size of the message (in bytes) </td></tr>
@@ -147,25 +141,44 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>asks user for the number of characters in the message </p><dl class="section return"><dt>Returns</dt><dd>number of characters in the message </dd></dl>
+<p>asks user for the number of characters in the message </p><dl class="section return"><dt>Returns</dt><dd>number of characters in the message <br />
+ right now unused </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="aa5d18397c7ae403a9182ddca9d40ebd9"></a>
+<a class="anchor" id="af7578bee08f243ac9a45e208f12f89fa"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void messageExpand </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>message</em>[], </td>
+          <td class="paramtype">std::vector&lt; unsigned char &gt; &amp;&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>expands the message in order to be a multiple of 8 ints (bytes) long <br />
+ adds <code>0</code> in the empty indexes </p>
+
+</div>
+</div>
+<a class="anchor" id="a310a38226dc017dcc4b332467b6f1b6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void messageToBinary </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>binaryMessage</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>numbersInMessage</em>&#160;</td>
+          <td class="paramtype">std::vector&lt; unsigned char &gt; &amp;&#160;</td>
+          <td class="paramname"><em>message</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -174,8 +187,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>expands the message in order to be a multiple of 8 ints (bytes) long <br />
- adds <code>0</code> in the empty indexes </p>
+
+<p>converts the message in form of unsigned chars into binary message </p>
 
 </div>
 </div>

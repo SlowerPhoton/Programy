@@ -24,15 +24,13 @@ int main()
 {
     enOrDecrypt();
 
-    int numbersInMessage = getSizeOfMessage();
-    int pad = padding(numbersInMessage);
-    int message[numbersInMessage + pad];
-    getMessage(message, numbersInMessage);
-    messageExpand(message, numbersInMessage); // the number of ints in the message must be a multiple of 8
+    vector<unsigned char> message;
+    getMessage(message);
+    messageExpand(message);
 
+    bool binaryMessage[message.size()*8];
+    messageToBinary(binaryMessage, message);
 
-    bool binaryMessage[numbersInMessage*8];
-    toBinary(message, binaryMessage, numbersInMessage + pad);
 
     int key[8];
     getKey(key);
@@ -45,7 +43,8 @@ int main()
     createSubkeys(binaryKey, subkeys);
 
     /// Step 2: Encode each 64-bit block of data.
-    for(int i = 0, length = numbersInMessage*8; i < length; i+=64){
+    size_t length = message.size()*8;
+    for(int i = 0; i < length; i+=64){
         bool C[64]; // to store the encrypted message
         encodeMessage(binaryMessage+i, subkeys, C);
 
@@ -57,7 +56,6 @@ int main()
         cout << endl;
 
     }
-
 
 
 

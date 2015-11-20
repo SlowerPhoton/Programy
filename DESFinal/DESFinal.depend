@@ -1,11 +1,12 @@
 # depslib dependency file v1.0
-1447681884 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\main.cpp
+1448052537 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\main.cpp
 	<iostream>
 	<stdio.h>
 	<string.h>
 	<math.h>
 	<cmath>
 	<fstream>
+	<vector>
 	"typeConverter.h"
 	"binary.h"
 	"enOrDecrypt.h"
@@ -33,11 +34,14 @@
 
 1447668204 c:\instal\codeblocks\share\codeblocks\programy\desfinal\enordecrypt.h
 
-1448040078 c:\instal\codeblocks\share\codeblocks\programy\desfinal\message.h
+1448052891 c:\instal\codeblocks\share\codeblocks\programy\desfinal\message.h
+	<vector>
 
-1447667099 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\message.cpp
+1448052537 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\message.cpp
 	"message.h"
 	<iostream>
+	<vector>
+	<limits>
 
 1447916095 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\key.cpp
 	"key.h"
