@@ -64,11 +64,11 @@ void keyTo8Bytes(char keyWord[], int key[8]){
     }
 
     // prepare file key.txt for uploading the key OPTIONAL
-    std::ofstream keyDestination;
+    /*std::ofstream keyDestination;
     keyDestination.open("key.txt");
     if(keyDestination == NULL){
         std::cout << "Failed to open key.txt, however key is retrieved" << std::endl;
-    }
+    }*/
 
     // use first 8 indexes from S (and shuffle them again)
     int i = 0;
@@ -81,16 +81,16 @@ void keyTo8Bytes(char keyWord[], int key[8]){
         S[j] = pom;
         int keyByte = S[(S[i] + S[j]) % 256];
         key[a] = keyByte;
-        if(keyDestination != NULL){
+        /*if(keyDestination != NULL){
             keyDestination << keyByte << std::endl;
-        }
+        }*/
     }
 
-    keyDestination.close();
+    //keyDestination.close();
 
 }
 
-bool uploadKey(int key[8]){     /* RIGHT NOW UNUSED, UNTRANSATED */
+bool uploadKey(int key[8]){     /* RIGHT NOW UNUSED, UNTRANSLATED */
 
 
     std::ifstream keyFile;

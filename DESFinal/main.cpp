@@ -4,10 +4,11 @@
 #include <math.h> // na co tu jsou?
 #include <cmath>  // na co tu jsou?
 #include <fstream>
+#include <vector>
 
 // #include "debug.h" UNNECESSARY
 #include "typeConverter.h" // functions used for converting between different data types
-#include "binary.h" // functions used to manipulate with binary data
+#include "binary.h" // functions used to manipulate with binary data UNNECESSARY
 #include "enOrDecrypt.h" // functions used to decide whether to encrypt or decrypt
 #include "message.h" // functions used to get and prepare the message
 #include "key.h" // functions used to get and prepare the key
@@ -17,7 +18,7 @@
 
 using namespace std;
 
-extern bool encr; // if true user wishes to encrypt
+extern bool encr; // if true user wishes to encrypt UNNECESSARY
 
 int main()
 {
