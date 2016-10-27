@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1475864844 source:c:\instal\codeblocks\share\codeblocks\programy\volby\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

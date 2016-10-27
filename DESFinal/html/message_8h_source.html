@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>DES: message.h Source File</title>
+<title>DES Algorithm: message.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">DES
+   <div id="projectname">DES Algorithm
    </div>
   </td>
  </tr>
@@ -86,25 +86,25 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="message_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef MESSAGE_H_INCLUDED</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define MESSAGE_H_INCLUDED</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordtype">int</span> <a class="code" href="message_8h.html#a8fe80dace52ada712840d6d088593c4c">getSizeOfMessage</a>(); <span class="comment">/*UNUSED*/</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keywordtype">int</span> <a class="code" href="message_8h.html#a241cc020182de2ae427350a2c6d27a68">padding</a>(<span class="keywordtype">int</span> numbersInMessage);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">void</span> <a class="code" href="message_8h.html#a09952714f5ba8b1344d2b164447ddd60">getMessage</a>(std::vector&lt;unsigned char&gt; &amp;message);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">void</span> <a class="code" href="message_8h.html#af7578bee08f243ac9a45e208f12f89fa">messageExpand</a>(std::vector&lt;unsigned char&gt; &amp;message);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span> <a class="code" href="message_8h.html#a310a38226dc017dcc4b332467b6f1b6e">messageToBinary</a>(<span class="keywordtype">bool</span> binaryMessage[], std::vector&lt;unsigned char&gt; &amp;message);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">int</span> <a class="code" href="message_8h.html#a45a27e23d9cb7d50f88b8a48a444cf66">padding</a>(<span class="keywordtype">int</span> elementsInMessage);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">void</span> <a class="code" href="message_8h.html#a08e6db4e851fc511b7b8f8321908f5d2">getMessage</a>(std::vector&lt;unsigned char&gt; &amp;message, <span class="keywordtype">int</span> inputS);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">void</span> <a class="code" href="message_8h.html#af7578bee08f243ac9a45e208f12f89fa">messageExpand</a>(std::vector&lt;unsigned char&gt; &amp;message);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span> <a class="code" href="message_8h.html#a0013bdf489197854c34670d0b4e713cf">messageToBinary</a>(<span class="keywordtype">bool</span> binaryMessage[64], std::vector&lt;unsigned char&gt; &amp;message, <span class="keywordtype">size_t</span> fromPos);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif // MESSAGE_H_INCLUDED</span></div>
-<div class="ttc" id="message_8h_html_af7578bee08f243ac9a45e208f12f89fa"><div class="ttname"><a href="message_8h.html#af7578bee08f243ac9a45e208f12f89fa">messageExpand</a></div><div class="ttdeci">void messageExpand(std::vector&lt; unsigned char &gt; &amp;message)</div><div class="ttdef"><b>Definition:</b> message.cpp:67</div></div>
-<div class="ttc" id="message_8h_html_a241cc020182de2ae427350a2c6d27a68"><div class="ttname"><a href="message_8h.html#a241cc020182de2ae427350a2c6d27a68">padding</a></div><div class="ttdeci">int padding(int numbersInMessage)</div><div class="ttdef"><b>Definition:</b> message.cpp:19</div></div>
-<div class="ttc" id="message_8h_html_a8fe80dace52ada712840d6d088593c4c"><div class="ttname"><a href="message_8h.html#a8fe80dace52ada712840d6d088593c4c">getSizeOfMessage</a></div><div class="ttdeci">int getSizeOfMessage()</div><div class="ttdef"><b>Definition:</b> message.cpp:9</div></div>
-<div class="ttc" id="message_8h_html_a09952714f5ba8b1344d2b164447ddd60"><div class="ttname"><a href="message_8h.html#a09952714f5ba8b1344d2b164447ddd60">getMessage</a></div><div class="ttdeci">void getMessage(std::vector&lt; unsigned char &gt; &amp;message)</div><div class="ttdef"><b>Definition:</b> message.cpp:23</div></div>
-<div class="ttc" id="message_8h_html_a310a38226dc017dcc4b332467b6f1b6e"><div class="ttname"><a href="message_8h.html#a310a38226dc017dcc4b332467b6f1b6e">messageToBinary</a></div><div class="ttdeci">void messageToBinary(bool binaryMessage[], std::vector&lt; unsigned char &gt; &amp;message)</div><div class="ttdoc">converts the message in form of unsigned chars into binary message </div><div class="ttdef"><b>Definition:</b> message.cpp:75</div></div>
+<div class="ttc" id="message_8h_html_af7578bee08f243ac9a45e208f12f89fa"><div class="ttname"><a href="message_8h.html#af7578bee08f243ac9a45e208f12f89fa">messageExpand</a></div><div class="ttdeci">void messageExpand(std::vector&lt; unsigned char &gt; &amp;message)</div><div class="ttdef"><b>Definition:</b> message.cpp:77</div></div>
+<div class="ttc" id="message_8h_html_a45a27e23d9cb7d50f88b8a48a444cf66"><div class="ttname"><a href="message_8h.html#a45a27e23d9cb7d50f88b8a48a444cf66">padding</a></div><div class="ttdeci">int padding(int elementsInMessage)</div><div class="ttdef"><b>Definition:</b> message.cpp:15</div></div>
+<div class="ttc" id="message_8h_html_a0013bdf489197854c34670d0b4e713cf"><div class="ttname"><a href="message_8h.html#a0013bdf489197854c34670d0b4e713cf">messageToBinary</a></div><div class="ttdeci">void messageToBinary(bool binaryMessage[64], std::vector&lt; unsigned char &gt; &amp;message, size_t fromPos)</div><div class="ttdoc">converts the message in form of unsigned chars into 64-bit binary message </div></div>
+<div class="ttc" id="message_8h_html_a08e6db4e851fc511b7b8f8321908f5d2"><div class="ttname"><a href="message_8h.html#a08e6db4e851fc511b7b8f8321908f5d2">getMessage</a></div><div class="ttdeci">void getMessage(std::vector&lt; unsigned char &gt; &amp;message, int inputS)</div><div class="ttdef"><b>Definition:</b> message.cpp:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

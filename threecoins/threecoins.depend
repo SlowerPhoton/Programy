@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1416946145 source:c:\instal\codeblocks\share\codeblocks\programy\threecoins\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

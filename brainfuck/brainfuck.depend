@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1421701271 source:c:\instal\codeblocks\share\codeblocks\programy\brainfuck\main.cpp
+	<iostream>
+

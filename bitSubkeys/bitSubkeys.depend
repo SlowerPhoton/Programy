@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1455226758 source:c:\instal\codeblocks\share\codeblocks\programy\bitsubkeys\main.cpp
+	<iostream>
+	<cmath>
+	<vector>
+

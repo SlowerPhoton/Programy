@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1447192246 source:c:\instal\codeblocks\share\codeblocks\programy\p1_3bruteforce\main.cpp
+	<iostream>
+	<math.h>
+	<ctime>
+	<cstdlib>
+

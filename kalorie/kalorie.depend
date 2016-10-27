@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1424244414 source:c:\instal\codeblocks\share\codeblocks\programy\kalorie\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<cstdlib>
+	<graphics.h>
+

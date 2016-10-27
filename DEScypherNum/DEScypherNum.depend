@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1446028663 source:c:\instal\codeblocks\share\codeblocks\programy\descyphernum\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<math.h>
+

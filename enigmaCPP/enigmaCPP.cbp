@@ -45,6 +45,8 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="plugboard.cpp" />
 		<Unit filename="plugboard.h" />
+		<Unit filename="settings.cpp" />
+		<Unit filename="settings.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

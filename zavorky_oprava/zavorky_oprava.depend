@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1434660913 source:c:\instal\codeblocks\share\codeblocks\programy\zavorky_oprava\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+

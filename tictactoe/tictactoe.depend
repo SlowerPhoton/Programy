@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1416934717 source:c:\instal\codeblocks\share\codeblocks\programy\tictactoe\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

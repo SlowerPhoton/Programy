@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1457436029 source:c:\instal\codeblocks\share\codeblocks\programy\pocitanictvercu\main.cpp
+	<iostream>
+	<fstream>
+	<graphics.h>
+

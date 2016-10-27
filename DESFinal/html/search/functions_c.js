@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['xor',['XOR',['../encode_message_8cpp.html#a9d7abf20cd0abeee5ec52d0f48c790ad',1,'XOR(bool a, bool b):&#160;encodeMessage.cpp'],['../encode_message_8cpp.html#acd9b0f2b4581a1028ef99327adfc6c51',1,'XOR(bool where[], bool arr1[], bool arr2[], int noOfNumbers):&#160;encodeMessage.cpp'],['../encode_message_8h.html#a9d7abf20cd0abeee5ec52d0f48c790ad',1,'XOR(bool a, bool b):&#160;encodeMessage.cpp'],['../encode_message_8h.html#acd9b0f2b4581a1028ef99327adfc6c51',1,'XOR(bool where[], bool arr1[], bool arr2[], int noOfNumbers):&#160;encodeMessage.cpp']]]
+  ['tobinary',['toBinary',['../type_converter_8h.html#a77473c4eb94c72c18778ffa616ddaa9f',1,'typeConverter.cpp']]],
+  ['todecimal',['toDecimal',['../type_converter_8h.html#a4a6fd919e01d9349b4ba8d18a599bd24',1,'typeConverter.cpp']]],
+  ['trim',['trim',['../cin_8h.html#a1a32c4d3bd87256731e67936766c65ca',1,'cin.cpp']]]
 ];

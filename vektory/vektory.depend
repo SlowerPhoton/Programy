@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1430045574 source:c:\instal\codeblocks\share\codeblocks\programy\vektory\main.cpp
+	<iostream>
+	<graphics.h>
+	<math.h>
+	<ctime>
+	<cstdlib>
+	<iomanip>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1429893232 source:c:\instal\codeblocks\share\codeblocks\programy\knihaprani\main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+

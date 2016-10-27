@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1439674688 source:c:\instal\codeblocks\share\codeblocks\programy\monoalphabetic\main.cpp
+	<iostream>
+	<istream>
+	<cstdlib>
+	<fstream>
+	<string.h>
+

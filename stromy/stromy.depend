@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1436180525 source:c:\instal\codeblocks\share\codeblocks\programy\stromy\main.cpp
+	<iostream>
+	<fstream>
+

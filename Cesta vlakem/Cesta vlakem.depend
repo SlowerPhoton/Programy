@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1449314619 source:c:\instal\codeblocks\share\codeblocks\programy\cesta vlakem\main.cpp
+	<iostream>
+	<fstream>
+

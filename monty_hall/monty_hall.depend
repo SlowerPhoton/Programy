@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1412168695 source:c:\instal\codeblocks\share\codeblocks\programy\monty_hall\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+

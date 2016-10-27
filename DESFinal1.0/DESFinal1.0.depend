@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1447535174 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal1.0\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<cmath>
+	<limits.h>
+	"header.h"
+
+1447494844 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal1.0\headertest.cpp
+
+1447531659 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal1.0\header.cpp
+
+1447494844 c:\instal\codeblocks\share\codeblocks\programy\desfinal1.0\headertest.cpp
+
+1447531232 c:\instal\codeblocks\share\codeblocks\programy\desfinal1.0\header.cpp
+
+1447534627 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal1.0\debug.cpp
+
+1447533115 c:\instal\codeblocks\share\codeblocks\programy\desfinal1.0\debug.cpp
+	"header.h"
+
+1447533115 c:\instal\codeblocks\share\codeblocks\programy\desfinal1.0\header.h
+
+1447532739 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal1.0\convert.cpp
+
+1447532739 c:\instal\codeblocks\share\codeblocks\programy\desfinal1.0\convert.cpp
+

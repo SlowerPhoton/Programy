@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>DES: encodeMessage.h Source File</title>
+<title>DES Algorithm: encodeMessage.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">DES
+   <div id="projectname">DES Algorithm
    </div>
   </td>
  </tr>
@@ -83,27 +83,28 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">encodeMessage.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="encode_message_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef ENCODEMESSAGE_H_INCLUDED</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define ENCODEMESSAGE_H_INCLUDED</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keywordtype">void</span> <a class="code" href="encode_message_8h.html#a6e4603239384aeb26f1362205fe5c402">encodeMessage</a>(<span class="keywordtype">bool</span> binaryMessage[64], <span class="keywordtype">bool</span> subkeys[16][48], <span class="keywordtype">bool</span> encrypted[64]);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="encode_message_8h.html#a9d7abf20cd0abeee5ec52d0f48c790ad">XOR</a>(<span class="keywordtype">bool</span> a, <span class="keywordtype">bool</span> b);</div>
+<a href="encode_message_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef ENCODEMESSAGE_H_INCLUDED</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define ENCODEMESSAGE_H_INCLUDED</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordtype">void</span> <a class="code" href="encode_message_8h.html#a6e4603239384aeb26f1362205fe5c402">encodeMessage</a>(<span class="keywordtype">bool</span> binaryMessage[64], <span class="keywordtype">bool</span> subkeys[16][48], <span class="keywordtype">bool</span> encrypted[64]);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">void</span> <a class="code" href="encode_message_8h.html#a9d7abf20cd0abeee5ec52d0f48c790ad">XOR</a>(<span class="keywordtype">bool</span> where[], <span class="keywordtype">bool</span> arr1[], <span class="keywordtype">bool</span> arr2[], <span class="keywordtype">int</span> noOfNumbers);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">void</span> <a class="code" href="encode_message_8h.html#a8a711bec5704efa0aa8ed0c62a727eea">permutation</a>(<span class="keywordtype">int</span> <a class="code" href="encode_message_8h.html#a8a711bec5704efa0aa8ed0c62a727eea">permutation</a>[], <span class="keywordtype">bool</span> toPermute[], <span class="keywordtype">bool</span> outcome[], <span class="keywordtype">int</span> sizeOfPermutation);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">int</span> <a class="code" href="encode_message_8h.html#a26badb23c8b47bb1640e106d6988ab33">lookUpInSBox</a>(<span class="keywordtype">int</span> which, <span class="keywordtype">bool</span> address[6], <span class="keywordtype">bool</span> binaryOutcome[4]);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">void</span> <a class="code" href="encode_message_8h.html#af1988bf60f8afd3e94a38a3b02381ee9">f</a>(<span class="keywordtype">bool</span> R[32], <span class="keywordtype">bool</span> K[48], <span class="keywordtype">bool</span> outcome[32]);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif // ENCODEMESSAGE_H_INCLUDED</span></div>
-<div class="ttc" id="encode_message_8h_html_a8a711bec5704efa0aa8ed0c62a727eea"><div class="ttname"><a href="encode_message_8h.html#a8a711bec5704efa0aa8ed0c62a727eea">permutation</a></div><div class="ttdeci">void permutation(int permutation[], bool toPermute[], bool outcome[], int sizeOfPermutation)</div><div class="ttdef"><b>Definition:</b> encodeMessage.cpp:82</div></div>
-<div class="ttc" id="encode_message_8h_html_a9d7abf20cd0abeee5ec52d0f48c790ad"><div class="ttname"><a href="encode_message_8h.html#a9d7abf20cd0abeee5ec52d0f48c790ad">XOR</a></div><div class="ttdeci">bool XOR(bool a, bool b)</div><div class="ttdef"><b>Definition:</b> encodeMessage.cpp:72</div></div>
-<div class="ttc" id="encode_message_8h_html_a6e4603239384aeb26f1362205fe5c402"><div class="ttname"><a href="encode_message_8h.html#a6e4603239384aeb26f1362205fe5c402">encodeMessage</a></div><div class="ttdeci">void encodeMessage(bool binaryMessage[64], bool subkeys[16][48], bool encrypted[64])</div><div class="ttdef"><b>Definition:</b> encodeMessage.cpp:7</div></div>
-<div class="ttc" id="encode_message_8h_html_af1988bf60f8afd3e94a38a3b02381ee9"><div class="ttname"><a href="encode_message_8h.html#af1988bf60f8afd3e94a38a3b02381ee9">f</a></div><div class="ttdeci">void f(bool R[32], bool K[48], bool outcome[32])</div><div class="ttdef"><b>Definition:</b> encodeMessage.cpp:178</div></div>
-<div class="ttc" id="encode_message_8h_html_a26badb23c8b47bb1640e106d6988ab33"><div class="ttname"><a href="encode_message_8h.html#a26badb23c8b47bb1640e106d6988ab33">lookUpInSBox</a></div><div class="ttdeci">int lookUpInSBox(int which, bool address[6], bool binaryOutcome[4])</div><div class="ttdef"><b>Definition:</b> encodeMessage.cpp:88</div></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="encode_message_8h.html#a9d7abf20cd0abeee5ec52d0f48c790ad">XOR</a>(<span class="keywordtype">bool</span> a, <span class="keywordtype">bool</span> b);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">void</span> <a class="code" href="encode_message_8h.html#a9d7abf20cd0abeee5ec52d0f48c790ad">XOR</a>(<span class="keywordtype">bool</span> where[], <span class="keywordtype">bool</span> arr1[], <span class="keywordtype">bool</span> arr2[], <span class="keywordtype">int</span> noOfNumbers);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">void</span> <a class="code" href="encode_message_8h.html#a8a711bec5704efa0aa8ed0c62a727eea">permutation</a>(<span class="keywordtype">int</span> <a class="code" href="encode_message_8h.html#a8a711bec5704efa0aa8ed0c62a727eea">permutation</a>[], <span class="keywordtype">bool</span> toPermute[], <span class="keywordtype">bool</span> outcome[], <span class="keywordtype">int</span> sizeOfPermutation);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">int</span> <a class="code" href="encode_message_8h.html#a26badb23c8b47bb1640e106d6988ab33">lookUpInSBox</a>(<span class="keywordtype">int</span> which, <span class="keywordtype">bool</span> address[6], <span class="keywordtype">bool</span> binaryOutcome[4]);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordtype">void</span> <a class="code" href="encode_message_8h.html#af1988bf60f8afd3e94a38a3b02381ee9">f</a>(<span class="keywordtype">bool</span> R[32], <span class="keywordtype">bool</span> K[48], <span class="keywordtype">bool</span> outcome[32]);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#endif // ENCODEMESSAGE_H_INCLUDED</span></div>
+<div class="ttc" id="encode_message_8h_html_a8a711bec5704efa0aa8ed0c62a727eea"><div class="ttname"><a href="encode_message_8h.html#a8a711bec5704efa0aa8ed0c62a727eea">permutation</a></div><div class="ttdeci">void permutation(int permutation[], bool toPermute[], bool outcome[], int sizeOfPermutation)</div><div class="ttdef"><b>Definition:</b> encodeMessage.cpp:83</div></div>
+<div class="ttc" id="encode_message_8h_html_a9d7abf20cd0abeee5ec52d0f48c790ad"><div class="ttname"><a href="encode_message_8h.html#a9d7abf20cd0abeee5ec52d0f48c790ad">XOR</a></div><div class="ttdeci">bool XOR(bool a, bool b)</div><div class="ttdef"><b>Definition:</b> encodeMessage.cpp:73</div></div>
+<div class="ttc" id="encode_message_8h_html_a6e4603239384aeb26f1362205fe5c402"><div class="ttname"><a href="encode_message_8h.html#a6e4603239384aeb26f1362205fe5c402">encodeMessage</a></div><div class="ttdeci">void encodeMessage(bool binaryMessage[64], bool subkeys[16][48], bool encrypted[64])</div><div class="ttdef"><b>Definition:</b> encodeMessage.cpp:8</div></div>
+<div class="ttc" id="encode_message_8h_html_af1988bf60f8afd3e94a38a3b02381ee9"><div class="ttname"><a href="encode_message_8h.html#af1988bf60f8afd3e94a38a3b02381ee9">f</a></div><div class="ttdeci">void f(bool R[32], bool K[48], bool outcome[32])</div><div class="ttdef"><b>Definition:</b> encodeMessage.cpp:179</div></div>
+<div class="ttc" id="encode_message_8h_html_a26badb23c8b47bb1640e106d6988ab33"><div class="ttname"><a href="encode_message_8h.html#a26badb23c8b47bb1640e106d6988ab33">lookUpInSBox</a></div><div class="ttdeci">int lookUpInSBox(int which, bool address[6], bool binaryOutcome[4])</div><div class="ttdef"><b>Definition:</b> encodeMessage.cpp:89</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

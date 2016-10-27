@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['padding',['padding',['../message_8cpp.html#a241cc020182de2ae427350a2c6d27a68',1,'padding(int numbersInMessage):&#160;message.cpp'],['../message_8h.html#a241cc020182de2ae427350a2c6d27a68',1,'padding(int numbersInMessage):&#160;message.cpp']]],
-  ['permutation',['permutation',['../encode_message_8cpp.html#a8a711bec5704efa0aa8ed0c62a727eea',1,'permutation(int permutation[], bool toPermute[], bool outcome[], int sizeOfPermutation):&#160;encodeMessage.cpp'],['../encode_message_8h.html#a8a711bec5704efa0aa8ed0c62a727eea',1,'permutation(int permutation[], bool toPermute[], bool outcome[], int sizeOfPermutation):&#160;encodeMessage.cpp']]]
+  ['messageexpand',['messageExpand',['../message_8h.html#af7578bee08f243ac9a45e208f12f89fa',1,'message.cpp']]],
+  ['messagetobinary',['messageToBinary',['../message_8h.html#a0013bdf489197854c34670d0b4e713cf',1,'message.h']]]
 ];

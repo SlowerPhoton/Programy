@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1427054933 source:c:\instal\codeblocks\share\codeblocks\programy\27-z4-1 záhada pražského orloje (8 bodù)\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<cstdlib>
+

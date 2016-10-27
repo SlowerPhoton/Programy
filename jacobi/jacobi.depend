@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463148600 source:c:\instal\codeblocks\share\codeblocks\programy\jacobi\main.cpp
+	<iostream>
+	<fstream>
+	<cmath>
+

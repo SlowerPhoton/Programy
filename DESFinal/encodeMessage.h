@@ -1,3 +1,9 @@
+/** \file
+ *  functions that encode/decode a given input using subkeys
+ *
+ */
+
+
 #ifndef ENCODEMESSAGE_H_INCLUDED
 #define ENCODEMESSAGE_H_INCLUDED
 

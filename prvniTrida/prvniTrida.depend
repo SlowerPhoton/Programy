@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1434813443 source:c:\instal\codeblocks\share\codeblocks\programy\prvnitrida\main.cpp
+	<iostream>
+	<fstream>
+

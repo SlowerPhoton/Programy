@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1468877238 source:c:\instal\codeblocks\share\codeblocks\programy\[2016-06-01] challenge #269 [intermediate] mirror encryption\main.cpp
+	<iostream>
+	<fstream>
+

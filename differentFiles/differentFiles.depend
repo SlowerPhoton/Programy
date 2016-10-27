@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1447609515 source:c:\instal\codeblocks\share\codeblocks\programy\differentfiles\main.cpp
+	<iostream>
+	"header.h"
+
+1447609548 c:\instal\codeblocks\share\codeblocks\programy\differentfiles\header.h
+
+1447609131 source:c:\instal\codeblocks\share\codeblocks\programy\differentfiles\return6.cpp
+	"header.h"
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1446014818 source:c:\instal\codeblocks\share\codeblocks\programy\desnumeric\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<math.h>
+

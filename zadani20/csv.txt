@@ -1,0 +1,3 @@
+1;Hugo Kokoska;3500;zednik
+2;Ferda Mravenec;2000;prace vseho druhu
+3;Stanislav Klecka;5000;topic

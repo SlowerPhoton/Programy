@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1446028360 source:c:\instal\codeblocks\share\codeblocks\programy\desrevsub\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<math.h>
+

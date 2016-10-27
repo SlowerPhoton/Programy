@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1443881333 source:c:\instal\codeblocks\share\codeblocks\programy\scitanivelkychcisel\main.cpp
+	<iostream>
+	<string.h>
+

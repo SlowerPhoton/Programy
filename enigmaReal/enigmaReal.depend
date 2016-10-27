@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1440882208 source:c:\instal\codeblocks\share\codeblocks\programy\enigmareal\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<stdlib.h>
+	<ctime>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1442325830 source:c:\instal\codeblocks\share\codeblocks\programy\enigmakeygenerator\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<cstdlib>
+	<ctype.h>
+	<ctime>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1424201519 source:c:\instal\codeblocks\share\codeblocks\programy\grafikatest\main.cpp
+	<iostream>
+	<graphics.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1432412614 source:c:\instal\codeblocks\share\codeblocks\programy\frekvenceslovtest\main.cpp
+	<iostream>
+	<fstream>
+

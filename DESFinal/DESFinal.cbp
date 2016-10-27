@@ -34,12 +34,14 @@
 		</Compiler>
 		<Unit filename="binary.cpp" />
 		<Unit filename="binary.h" />
-		<Unit filename="debug.cpp" />
-		<Unit filename="debug.h" />
-		<Unit filename="enOrDecrypt.cpp" />
-		<Unit filename="enOrDecrypt.h" />
+		<Unit filename="callFunction.cpp" />
+		<Unit filename="callFunction.h" />
+		<Unit filename="cin.cpp" />
+		<Unit filename="cin.h" />
 		<Unit filename="encodeMessage.cpp" />
 		<Unit filename="encodeMessage.h" />
+		<Unit filename="encrypt.cpp" />
+		<Unit filename="encrypt.h" />
 		<Unit filename="key.cpp" />
 		<Unit filename="key.h" />
 		<Unit filename="main.cpp" />

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1449343575 source:c:\instal\codeblocks\share\codeblocks\programy\monaprijdeikouzelnik\main.cpp
+	<iostream>
+	<fstream>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1457437282 source:c:\instal\codeblocks\share\codeblocks\programy\zvyraznenitextu\main.cpp
+	<iostream>
+	<fstream>
+

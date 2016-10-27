@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1418243209 source:c:\instal\codeblocks\share\codeblocks\programy\pip\main.cpp
+	<iostream>
+	<ctime>
+

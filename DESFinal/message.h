@@ -5,20 +5,17 @@
 
 #ifndef MESSAGE_H_INCLUDED
 #define MESSAGE_H_INCLUDED
+
+#include <iostream>
 #include <vector>
 
-/**
-    asks user for the number of characters in the message
-    @return number of characters in the message
-    @n right now unused
-*/
-int getSizeOfMessage(); /*UNUSED*/
 
 
 /**
-    counts how many characters we need to add to the message in order to be a multiple of 8 characters long (64 bits)
+    @return how many characters we need to add to the message in order to be a multiple of 8 characters long (64 bits)
+    @param elementsInMessage how many elements the message contains
 */
-int padding(int numbersInMessage);
+int padding(int elementsInMessage);
 
 /**
     get the message from the user, character after character <unsigned char>
@@ -26,7 +23,7 @@ int padding(int numbersInMessage);
     @param numbersInMessage the size of the message (in bytes)
 
 */
-void getMessage(std::vector<unsigned char> &message);
+void getMessage(std::vector<unsigned char> &message, int inputS);
 
 /**
     expands the message in order to be a multiple of 8 ints (bytes) long
@@ -34,9 +31,12 @@ void getMessage(std::vector<unsigned char> &message);
 */
 void messageExpand(std::vector<unsigned char> &message);
 
-/** \brief converts the message in form of unsigned chars into binary message
+/** \brief converts the message in form of unsigned chars into 64-bit binary message
  *
+ * @param binaryMessage to store the output
+ * @param &message the message to be converted
+ * @param fromPos to specify from which element of message to start
  */
-void messageToBinary(bool binaryMessage[], std::vector<unsigned char> &message);
+void messageToBinary(bool binaryMessage[64], std::vector<unsigned char> &message, size_t fromPos);
 
 #endif // MESSAGE_H_INCLUDED

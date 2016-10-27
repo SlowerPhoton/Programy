@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1412693060 source:c:\instal\codeblocks\share\codeblocks\programy\whatever\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+

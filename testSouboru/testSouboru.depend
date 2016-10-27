@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1430225810 source:c:\instal\codeblocks\share\codeblocks\programy\testsouboru\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+

@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="../enigmaCPP/settings.cpp" />
+		<Unit filename="../enigmaCPP/settings.h" />
 		<Unit filename="callFunction.cpp" />
 		<Unit filename="callFunction.h" />
 		<Unit filename="cin.cpp" />

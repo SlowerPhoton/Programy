@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1440272157 source:c:\instal\codeblocks\share\codeblocks\programy\decypherenigma\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<cstdlib>
+	<ctype.h>
+

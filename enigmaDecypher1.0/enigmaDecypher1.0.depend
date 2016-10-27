@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1440433818 source:c:\instal\codeblocks\share\codeblocks\programy\enigmadecypher1.0\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<cstdlib>
+	<ctype.h>
+	<string>
+

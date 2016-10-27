@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1457434494 source:c:\instal\codeblocks\share\codeblocks\programy\dvojcata\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

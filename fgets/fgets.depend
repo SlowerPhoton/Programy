@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1446654589 source:c:\instal\codeblocks\share\codeblocks\programy\fgets\main.cpp
+	<iostream>
+	<stdio.h>
+

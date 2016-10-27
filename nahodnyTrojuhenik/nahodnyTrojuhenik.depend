@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1475876793 source:c:\instal\codeblocks\share\codeblocks\programy\nahodnytrojuhenik\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

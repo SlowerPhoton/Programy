@@ -1,4 +1,5 @@
 #include "encodeMessage.h"
+#include "encrypt.h" // for bool encr
 #include "typeConverter.h" // toDecimal
 #include "binary.h" // divideBinary, overwrite
 
@@ -70,12 +71,12 @@ void encodeMessage(bool binaryMessage[64], bool subkeys[16][48], bool encrypted[
 }
 
 bool XOR(bool a, bool b){
-    return (a+b)%2;
+    return a ^ b;
 }
 
 void XOR(bool where[], bool arr1[], bool arr2[], int noOfNumbers){
     for(int i = 0; i < noOfNumbers; i++){
-        where[i] = (arr1[i] + arr2[i])%2;
+        where[i] = arr1[i] ^ arr2[i];
     }
 }
 

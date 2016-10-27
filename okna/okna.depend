@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1430227502 source:c:\instal\codeblocks\share\codeblocks\programy\okna\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+
